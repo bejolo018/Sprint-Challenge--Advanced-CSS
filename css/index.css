@@ -249,7 +249,7 @@ footer {
   color: white;
   background-color: teal;
   width: 33%;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 1rem;
   font-size: 1.5rem;
   border: 1px solid teal;
@@ -284,6 +284,15 @@ footer {
   }
   .home .walk .walk-img {
     width: 100%;
+  }
+  .home .walk .btn {
+    color: white;
+    background-color: teal;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid teal;
   }
   .sky {
     display: none;

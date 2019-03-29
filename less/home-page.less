@@ -58,6 +58,13 @@
       }
 
       .btn {
+        .custom-button(white, darkslategray, 33%);
+      }
+
+      .btn:hover{
+        background-color: white;
+        color: darkslategray;
+        cursor: pointer;
       }
     }
 
@@ -73,3 +80,41 @@
     }
   }
 }// home
+
+//phone
+
+@media @phone {
+
+  .intro-img{
+    max-width: 100%
+  }
+
+
+  .home{
+    .space-images{
+      img{
+        width: 100%;
+      }
+    }
+    .walk {
+      flex-direction: column-reverse;
+      margin-left: -4rem;
+        .walk-text{
+          width: 100%;
+        }
+  
+        .walk-img{
+          width: 100%;
+        }
+      }
+  }
+
+  .sky{
+    .delete();
+    }
+
+  .launch{
+      .delete();
+    }
+
+}

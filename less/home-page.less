@@ -58,12 +58,12 @@
       }
 
       .btn {
-        .custom-button(white, teal, 33%);
+        .custom-button(white, darkslategray, 33%);
       }
 
       .btn:hover{
         background-color: white;
-        color: teal;
+        color: darkslategray;
         cursor: pointer;
       }
     }
@@ -83,7 +83,7 @@
 
 //phone
 
-@media(max-width: 500px){
+@media @phone {
 
   .intro-img{
     max-width: 100%
@@ -106,11 +106,6 @@
         .walk-img{
           width: 100%;
         }
-
-        .btn {
-          .custom-button(white, teal, 100%);
-        }
-
       }
   }
 
@@ -121,9 +116,5 @@
   .launch{
       .delete();
     }
-
-
-
-
 
 }

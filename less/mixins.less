@@ -1,10 +1,18 @@
 // Mixins Here
 
-.custom-button(@font-color, @bgcolor){
+.custom-button(@font-color, @bgcolor, @width){
     color: @font-color;
     background-color: @bgcolor;
-    width: 33%;
+    width: @width;
     padding: 3rem;
     border-radius: 1rem;
     font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.delete {
+    display: none;
 }

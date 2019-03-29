@@ -1,3 +1,9 @@
+.flex {
+  display: flex;
+}
+.delete {
+  display: none;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -255,4 +261,28 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .intro-img {
+    max-width: 100%;
+  }
+  .home .space-images img {
+    width: 100%;
+  }
+  .home .walk {
+    flex-direction: column-reverse;
+    margin-left: -4rem;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+  }
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
 }

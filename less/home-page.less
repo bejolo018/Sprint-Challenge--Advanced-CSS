@@ -58,7 +58,7 @@
       }
 
       .btn {
-        .custom-button(white, teal);
+        .custom-button(white, teal, 33%);
       }
     }
 
@@ -74,3 +74,45 @@
     }
   }
 }// home
+
+//phone
+
+@media(max-width: 500px){
+
+  .intro-img{
+    max-width: 100%
+  }
+
+
+  .home{
+    .space-images{
+      img{
+        width: 100%;
+      }
+    }
+    .walk {
+      flex-direction: column-reverse;
+      margin-left: -4rem;
+        .walk-text{
+          width: 100%;
+        }
+  
+        .walk-img{
+          width: 100%;
+        }
+      }
+  }
+
+  .sky{
+    .delete();
+    }
+
+  .launch{
+      .delete();
+    }
+
+
+
+
+
+}
